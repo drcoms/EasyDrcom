@@ -1,6 +1,9 @@
 #EasyDrcom
 ##Current Version: v0.8
 
+#### Download: (v0.7)[https://github.com/coverxit/EasyDrcom/raw/master/Release/EasyDrcom_v0.7_for_OpenWrt_mips_AR7xxx_AR9xxx.zip]
+
+#### GUI Wrapper: https://github.com/coverxit/EasyDrcomGUI
 
 ###License
 ---
@@ -26,6 +29,16 @@
 
 有关如何使用 **EasyDrcom**, 请访问 http://bbs.ghtt.net/thread-1984091-1-1.html
 
+此外，EasyDrcom已推出GUI版，详情请访问：http://bbs.ghtt.net/thread-2013765-1-1.html
+
+欲获取 EasyDrcomGUI 源代码，请访问：https://github.com/coverxit/EasyDrcomGUI
+
+###Other projects
+---
+如果需要Python版本（支持d, p, x三版），请参考：https://github.com/drcoms/drcom-generic
+
+此外，这里还有一个增加了802.1X心跳包的版本：https://github.com/sunke-github/Drcom8021x_Openwrt
+
 ###Compile Tips
 ---
 ####下面以向Linux平台编译为例。
@@ -37,6 +50,7 @@
 你或许已经发现了，**EasyDrcom** 依赖于：
     
     libpcap (1.5.3)
+    boost (1.55.0)
 
 _括号里标注的是作者使用的版本_
 
